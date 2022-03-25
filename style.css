@@ -1,10 +1,49 @@
-li{
-    border: 2px black solid;
+ol {
+    list-style: none;
 }
-ol{
 
+section {
+    display: flex;
 }
-h1{
-    border: 2px black solid;
 
+header {
+    text-align: center;
+}
+
+body {
+    padding: 0;
+}
+
+#hall {
+    border: 2px black solid;
+    padding: 10px;
+    margin: 0;
+}
+
+#hall:hover {
+    background-color: darkseagreen;
+    cursor: pointer;
+    color: white;
+}
+
+#main {
+    border: 1px solid black;
+    width: 400px;
+    height: 800px;
+    overflow: auto;
+    margin: 0%;
+}
+
+h1 {
+    border: 2px black solid;
+    padding: 10px;
+    background-color: aquamarine;
+}
+
+#table {
+    border: 2px black solid;
+    width: 1000px;
+    height: 800px;
+    margin: 20px;
+    margin-top: 0px;
 }
